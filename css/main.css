@@ -12,37 +12,38 @@ body {
   background-color: grey;
 }
 
-nav {
-  z-index: 1;
+nav .nav-color {
+  background-color: aqua;
 }
 nav .logo_color {
-  color: rgba(235, 58, 27, 0.795);
+  color: rgba(27, 187, 235, 0.795);
+  font-weight: bold;
 }
 nav .nav-text {
   text-transform: uppercase;
   font-size: 16px;
+  color: white;
+}
+nav .navbar-brand {
+  color: white;
 }
 nav .fa-solid {
   padding: 10px;
 }
 nav .nav-link:hover {
-  color: rgba(235, 58, 27, 0.795);
+  color: rgba(27, 187, 235, 0.795);
   font-weight: bold;
 }
 nav .form-control {
-  border: 2px solid rgba(235, 58, 27, 0.795);
+  border: 2px solid rgba(27, 187, 235, 0.795);
 }
 nav .btn-search {
-  border: 2px solid rgba(235, 58, 27, 0.795);
+  border: 2px solid rgba(27, 187, 235, 0.795);
 }
 
-header {
-  padding-top: 80px;
-}
 header .hero-img {
   position: relative;
-  width: 100vw;
-  height: 90vh;
+  height: 100vh;
   background-image: url("../img/background_1920.jpg");
   background-position: center;
   background-size: cover;

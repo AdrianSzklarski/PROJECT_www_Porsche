@@ -15,15 +15,23 @@ body {
 }
 
 nav {
-z-index: 1;
+    .nav-color  {
+        background-color: aqua;
+    }
 
     .logo_color {
         color: c.$main-color;
+        font-weight: bold;
     }
 
     .nav-text {
         text-transform: uppercase;
         font-size: 16px;
+        color: c.$whit-color;
+    }
+
+    .navbar-brand {
+        color: c.$whit-color;
     }
 
     .fa-solid {
@@ -45,12 +53,9 @@ z-index: 1;
 }
 
 header {
-    padding-top: 80px;
-
    .hero-img {
     position: relative;
-    width: 100vw;
-    height: 90vh;
+    height: 100vh;
     background-image: url('../img/background_1920.jpg');
     background-position: center;
     background-size: cover;
