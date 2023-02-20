@@ -35,6 +35,7 @@ nav {
     }
 
     .fa-solid {
+        color: c.$whit-color;
         padding: 10px;
     }
 
@@ -69,4 +70,19 @@ header {
     height: 100%;
     background-color: rgba(207, 147, 77, 0.3);    
    }
+}
+
+// media
+@media(min-width: 320px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 768px) {
+    .nav-text {
+        text-transform: uppercase;
+        font-size: 18px;
+        color: c.$whit-color;
+    }
 }
