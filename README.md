@@ -1,8 +1,8 @@
-# Porsche Aplication
+# Porsche Car Rental
 
 A site associated with the Porsche car brand.
 
-## Under construction 
+## 1 Step: Under construction FrontEnd 
 
 ## Created by Adrian Szklarski, start time 02.2023
 
