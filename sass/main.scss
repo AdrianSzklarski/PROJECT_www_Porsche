@@ -15,7 +15,9 @@ body {
 }
 
 nav {
-    .nav-color  {
+    z-index: 2;
+
+    .nav-color {
         background-color: aqua;
     }
 
@@ -54,35 +56,51 @@ nav {
 }
 
 header {
-   .hero-img {
-    position: relative;
-    height: 100vh;
-    background-image: url('../img/background_1920.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -10;
-  
-   }
-   .hero-shadow {
-    position: absolute; 
-    width: 100%;
-    height: 100%;
-    background-color: rgba(207, 147, 77, 0.3);    
-   }
+    .hero-img {
+        position: relative;
+        height: 100vh;
+        background-image: url('../img/background_640.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: -10;
+
+    }
+
+    .hero-shadow {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(207, 147, 77, 0.3);
+    }
 }
 
 // media
 @media(min-width: 320px) {
-    .navbar-brand {
-        font-size: 18px;
+    nav {
+        .navbar-brand {
+            font-size: 18px;
+        }
     }
+
 }
 
 @media(min-width: 768px) {
-    .nav-text {
-        text-transform: uppercase;
-        font-size: 18px;
-        color: c.$whit-color;
+    nav {
+        .nav-text {
+            text-transform: uppercase;
+            font-size: 18px;
+            color: c.$whit-color;
+        }
     }
+
+}
+
+@media(min-width: 1200px) {
+    header {
+        .hero-img {
+            background-image: url('../img/background_1920.jpg');
+        }
+    }
+
 }
