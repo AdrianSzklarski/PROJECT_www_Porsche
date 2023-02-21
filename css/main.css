@@ -12,6 +12,10 @@ body {
   background-color: grey;
 }
 
+.add-back {
+  background-color: rgba(129, 179, 117, 0.5);
+}
+
 nav {
   z-index: 2;
 }
