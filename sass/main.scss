@@ -13,8 +13,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
 .add-back {
-    background-color: $shad-color;
+    background-color: c.$shad-color;
 }
 
 nav {
@@ -75,6 +81,17 @@ header {
         width: 100%;
         height: 100%;
         background-color: c.$shad-color;
+    }
+}
+
+main {
+    .logo_color2 {
+        color: c.$main-color;
+        font-weight: bold;
+    }
+    .logoPorsche {
+       padding: 0;
+
     }
 }
 
